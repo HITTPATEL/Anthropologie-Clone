@@ -1,0 +1,274 @@
+/* #nav{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+} */
+#shcontainer1{
+    height: 700px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 30px 50px 0px 50px;
+}
+#shimg1{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer2{
+    height: 80px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shpara2{
+    margin-left: 20px;
+}
+#shcontainer2 a{
+    color: #8588ac;
+}
+#shcontainer2 a:hover{
+    text-decoration: none;
+}
+#shcontainer3{
+    height: 600px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#shbox{
+    height: 530px;
+    width: 32.2%;
+    border: 1px solid red;
+}
+#shimg2{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer3 a{
+    color: #8588ac;
+}
+#shcontainer3 a:hover{
+    text-decoration: none;
+}
+#shcontainer4{
+    height: 750px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+}
+#shimg3{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer5{
+    height: 80px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: 30px;
+}
+#shpara4{
+    margin-left: 20px;
+}
+#shcontainer5 a{
+    color: #8588ac;
+}
+#shcontainer5 a:hover{
+    text-decoration: none;
+}
+#shcontainer6{
+    height: 720px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#shbox1{
+    height: 650px;
+    width: 49.2%;
+    border: 1px solid red;
+}
+#shimg4{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer6 a{
+    color: #8588ac;
+}
+#shcontainer6 a:hover{
+    text-decoration: none;
+}
+#shcontainer7{
+    height: 650px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+}
+#shimg5{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer8{
+    height: 80px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: 30px;
+}
+#shpara6{
+    margin-left: 20px;
+}
+#shcontainer8 a{
+    color: #8588ac;
+}
+#shcontainer8 a:hover{
+    text-decoration: none;
+}
+#shcontainer9{
+    height: 700px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+}
+#shimg6{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer10{
+    height: 700px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 30px 50px 0px 50px;
+}
+#shimg7{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer11{
+    height: 80px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shpara8,#shpara9{
+    margin-left: 20px;
+}
+#shcontainer11 a{
+    color: #8588ac;
+}
+#shcontainer11 a:hover{
+    text-decoration: none;
+}
+#shcontainer12{
+    height: 110px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+}
+#shimg8{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer13{
+    height: 600px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 30px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#shbox2{
+    height: 530px;
+    width: 32.2%;
+    border: 1px solid red;
+}
+#shimg9{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer13 a{
+    color: #8588ac;
+}
+#shcontainer13 a:hover{
+    text-decoration: none;
+}
+#shcontainer14{
+    height: 750px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 5px 50px 0px 50px;
+}
+#shimg10{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer15{
+    height: 80px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: 30px;
+}
+/* #shpara10{
+    margin-left: 20px;
+} */
+#shcontainer15 a{
+    color: #8588ac;
+}
+#shcontainer15 a:hover{
+    text-decoration: none;
+}
+
+
+
+#shcontainer16{
+    height: 250px;
+    width: 1403px;
+    border: 1px solid black;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#shbox3{
+    height: 100px;
+    width: 32.2%;
+    border: 1px solid red;
+}
+#shimg11{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer16 a{
+    color: #8588ac;
+}
+#shcontainer16 a:hover{
+    text-decoration: none;
+}
+#para-sh{
+    font-size: 20px;
+}
