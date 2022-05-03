@@ -1,0 +1,181 @@
+
+#h_container{
+    display:flex;
+    width: 92%;
+   margin: auto;
+   gap:20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 14px;
+}
+#h_r{
+    margin-right: 15%;
+}
+#h_g{
+    margin-right:-14% ;
+}
+#h_left{
+    display: grid;
+    grid-template-columns:  repeat(2,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+    grid-template-areas: 
+    "a a"
+    "b c"
+    "d d";
+   
+}
+#h_left img ,#h_right img {
+   display: block;
+}
+#h_left>div,#h_right>div{
+    position: relative;
+}
+#h_right>div>div{
+    position: absolute;
+    bottom:20px;
+    right:30%;
+    background-color: aliceblue;
+    padding: 10px 30px 10px 30px;
+ 
+}
+#h_left>div>div{
+    position: absolute;
+    bottom:20px;
+    right:40%;
+    background-color: aliceblue;
+    padding: 10px 30px 10px 30px;
+}
+#h_chair{
+   margin-right: -60px;
+}
+
+#h_left>div:nth-child(1){
+     grid-area:a;
+     
+}
+#h_left>div:nth-child(2){
+    grid-area:b;
+}
+#h_left>div:nth-child(3){
+    grid-area:c;
+}
+#h_left>div:nth-child(4){
+    grid-area:d;
+}
+#h_left img{
+    width:100%;
+}
+#h_right {
+    display: grid;
+    grid-template-columns:  repeat(1,1fr);
+    grid-template-rows: auto;
+
+    grid-template-areas: 
+    "a"
+    "b"
+    "c";
+    gap:23px;
+}
+#h_right img{
+    width:100%;
+}
+#h_container>div div :hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#h_container :hover{
+    cursor: pointer;
+}
+#h_getaway{
+    width:92%;
+    margin: auto;
+    margin-top: 40px;
+}
+#h_getaway img{
+    width:100%;
+    display:block
+}
+
+ #h_getaway{
+     position: relative;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 14px;
+ }
+ #h_getaway >div{
+     position: absolute;
+     bottom:20px;
+     right:40%;
+     background-color: aliceblue;
+     padding: 10px 30px 10px 30px;
+ }
+ #h_getaway>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ #h_getaway:hover{
+     cursor: pointer;
+ }
+ #h_slider1{
+    font-family: 'Quicksand', sans-serif;
+     width:93% ;
+     margin: auto;
+     margin-top: 50px;
+ }
+ #h_slider2{
+    font-family: 'Quicksand', sans-serif;
+    width:93% ;
+    margin: auto;
+    margin-top: 200px;
+}
+ #logo1:hover{
+   cursor: pointer;
+  content: url("https://images.urbndata.com/is/image/Anthropologie/4130464030168_266_b?$an-category$&qlt=80&fit=constrain");
+ 
+}
+#logo2:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4130647160123_011_b2?$an-category$&qlt=80&fit=constrain");
+}
+#logo3:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4130348690163_050_b2?$an-category$&qlt=80&fit=constrain");
+}
+#logo4:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4130652010001_001_b2?$an-category$&qlt=80&fit=constrain");
+}
+#logo5:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4130226850014_081_b?$an-category$&qlt=80&fit=constrain");
+}
+#logo6:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4130916210071_028_b?$an-category$&qlt=80&fit=constrain");
+}
+#logo7:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/57503047_913_b2?$an-category$&qlt=80&fit=constrain");
+}
+#logo8:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4130210690116_009_b?$an-category$&qlt=80&fit=constrain");
+}
+#logo9:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/66262510_066_b2?$an-category$&qlt=80&fit=constrain");
+}
+#logo10:hover{
+    cursor: pointer;
+    content: url("https://images.urbndata.com/is/image/Anthropologie/4138348690017_049_b2?$an-category$&qlt=80&fit=constrain");
+}
+#h_slider1>div>div>div>div:hover,#h_slider2>div>div>div>div:hover{
+color:rgb(87, 178, 234)
+}
+.h_slider{
+    
+    margin-top: 30px;
+}
+#h_slider1>div>div>div>div,#h_slider2>div>div>div>div{
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+}
