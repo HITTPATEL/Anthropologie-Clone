@@ -1,0 +1,17 @@
+  <link rel="stylesheet" href="rishabh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+
+    import footer_main from "./footer.js"
+document.getElementById("footer_main").innerHTML=footer_main()
+
+
+
+import navbar_main from "./navbar.js"
+document.getElementById("navbar_main").innerHTML=navbar_main();
+
