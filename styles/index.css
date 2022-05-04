@@ -1,4 +1,4 @@
-
+/* first container css part start */
 #h_container{
     display:flex;
     width: 92%;
@@ -86,6 +86,11 @@
 #h_container :hover{
     cursor: pointer;
 }
+
+/* first container css part end */
+
+/* getaway section css part start */
+
 #h_getaway{
     width:92%;
     margin: auto;
@@ -115,67 +120,206 @@
  #h_getaway:hover{
      cursor: pointer;
  }
+/* getaway section css part end */
+
+
+
+
+ /* slider1 css part start */
  #h_slider1{
     font-family: 'Quicksand', sans-serif;
      width:93% ;
      margin: auto;
      margin-top: 50px;
  }
+
+
+.h_container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center; 
+    margin-top: -25px;
+}
+/* .whole{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+} */
+.h_container .slide img{
+    /* margin-left: 70px; */
+    display: inline-block;
+   width:100%;
+   height:100%;
+   object-fit: contain;
+   object-position: center;
+}
+
+.h_container .caption{
+    /* width: 100%; */
+    box-sizing: border-box;
+    /* margin-left: 100px; */
+    font-weight: bolder;
+    font-weight: 800;
+    margin-top: -18px;
+    font-size: 14px;
+    color: black;
+  
+}
+.h_container .caption:hover{
+    color:rgb(92, 193, 233);
+    cursor: pointer;
+}
+   
+
+.h_container .arrow{
+    cursor: pointer;
+    position:absolute;
+    top: calc(50% - 33px) ;
+    color: black;
+    background-color: rgb(251, 249, 246);
+    padding: 14px 14px;
+}
+.h_container .next{
+    right: 10px;
+}
+.h_container .prev{
+    left: 10px;
+}
+.h_container .slide{
+    /* display: none; */
+    width: 350px;
+    height: 400px;
+margin: 10px;
+}
+#h_logo1:hover{
+    cursor: pointer;
+   content: url("https://images.urbndata.com/is/image/Anthropologie/4130464030168_266_b?$an-category$&qlt=80&fit=constrain");
+  
+ }
+ #h_logo2:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4130647160123_011_b2?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo3:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4130348690163_050_b2?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo4:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4130652010001_001_b2?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo5:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4130226850014_081_b?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo6:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4130916210071_028_b?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo7:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/57503047_913_b2?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo8:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4130210690116_009_b?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo9:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/66262510_066_b2?$an-category$&qlt=80&fit=constrain");
+ }
+ #h_logo10:hover{
+     cursor: pointer;
+     content: url("https://images.urbndata.com/is/image/Anthropologie/4138348690017_049_b2?$an-category$&qlt=80&fit=constrain");
+ }
+/* slider1 css part end */
+
+
+/* recently viewed css part start */
  #h_slider2{
     font-family: 'Quicksand', sans-serif;
     width:93% ;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 150px;
 }
- #logo1:hover{
-   cursor: pointer;
-  content: url("https://images.urbndata.com/is/image/Anthropologie/4130464030168_266_b?$an-category$&qlt=80&fit=constrain");
- 
+#h_recently_viewed{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+    font-weight: 800;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-top: 20px;
 }
-#logo2:hover{
+#h_recently_viewed>div>div:hover{
+    color:rgb(92, 193, 233);
     cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4130647160123_011_b2?$an-category$&qlt=80&fit=constrain");
 }
-#logo3:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4130348690163_050_b2?$an-category$&qlt=80&fit=constrain");
+#h_recently_viewed img{
+    width:100%;
+  
 }
-#logo4:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4130652010001_001_b2?$an-category$&qlt=80&fit=constrain");
+/* recently viewed css part end */
+
+/* more to explore css part  start  */
+
+#h_more_to_explore{
+    width: 93%;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
 }
-#logo5:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4130226850014_081_b?$an-category$&qlt=80&fit=constrain");
-}
-#logo6:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4130916210071_028_b?$an-category$&qlt=80&fit=constrain");
-}
-#logo7:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/57503047_913_b2?$an-category$&qlt=80&fit=constrain");
-}
-#logo8:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4130210690116_009_b?$an-category$&qlt=80&fit=constrain");
-}
-#logo9:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/66262510_066_b2?$an-category$&qlt=80&fit=constrain");
-}
-#logo10:hover{
-    cursor: pointer;
-    content: url("https://images.urbndata.com/is/image/Anthropologie/4138348690017_049_b2?$an-category$&qlt=80&fit=constrain");
-}
-#h_slider1>div>div>div>div:hover,#h_slider2>div>div>div>div:hover{
-color:rgb(87, 178, 234)
-}
-.h_slider{
+#h2_mte{
+    text-align: center;
     
+    font-size: 22px;
+}
+
+#mo_to_ex_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:20px;  
     margin-top: 30px;
 }
-#h_slider1>div>div>div>div,#h_slider2>div>div>div>div{
+#mo_to_ex_box img{
+    width:100%;
+}
+#mo_to_ex_box h2{
+    font-size: 22px;
+}
+#mo_to_ex_box p{
+    font-size: 15px;
     font-weight: bolder;
+}
+#h_a{
+    text-decoration: underline;
+}
+#mo_to_ex_box #h_last_mte{
+    font-size: 14px;
+    color: rgb(4, 123, 123);
+    text-decoration: underline;
+}
+#mo_to_ex_box #h_last_mte:hover{
+    text-decoration: none;
+}
+#h_about_us{
+    width: 93%;
+    margin: auto;
+    margin-top: 40px;
     font-family: 'Quicksand', sans-serif;
+}
+#h_about_us #h_last_mte{
+    font-size: 14px;
+    color: rgb(4, 123, 123);
+    text-decoration: underline;
+}
+#h_about_us #h_last_mte:hover{
+    text-decoration: none;
+}
+
+#h_about_us p{
+    font-size: 15px;
+    font-weight: bolder;
 }
