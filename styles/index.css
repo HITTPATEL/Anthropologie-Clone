@@ -160,7 +160,6 @@
     /* margin-left: 100px; */
     font-weight: bolder;
     font-weight: 800;
-    margin-top: -18px;
     font-size: 14px;
     color: black;
   
@@ -251,6 +250,9 @@ margin: 10px;
     font-weight: bolder;
     font-size: 14px;
     margin-top: 20px;
+}
+#h_recently_viewed .caption{
+   margin-top: 10px;
 }
 #h_recently_viewed>div>div:hover{
     color:rgb(92, 193, 233);

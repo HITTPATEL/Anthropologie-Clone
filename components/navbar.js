@@ -54,16 +54,16 @@ function navbar_main(){
 
 <div id="toggle">
 <div>New!</div>
-<div>Gifts foer Mom</div>
+<div>Gifts for Mom</div>
 <div>Dresses</div>
 <div>Clothing</div>
 <div>Shoes</div>
 <div>Accessories</div>
-<div>home&Furm</div>
-<div>home&Furm</div>
-<div>home&Furm</div>
-<div>home&Furm</div>
-<div>home&Furm</div>
+<div>Home & Furniture</div>
+<div>Beauty & Wellness</div>
+<div>Garden & Outdoor</div>
+<div>Weddings</div>
+<div>Sale</div>
 </div>
 <hr>
 

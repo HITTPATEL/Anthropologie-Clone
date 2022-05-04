@@ -36,3 +36,10 @@ for(let i=num;i<num+range;i++){
 }
    
 }
+
+import navbar_main from "../components/navbar.js";
+document.getElementById("navbar_main").innerHTML=navbar_main();
+
+import footer_main from "../components/footer.js"
+document.getElementById("footer_main").innerHTML=footer_main()
+
