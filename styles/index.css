@@ -186,7 +186,7 @@
 }
 .h_container .slide{
     /* display: none; */
-    width: 350px;
+    width: 350px; 
     height: 400px;
 margin: 10px;
 }

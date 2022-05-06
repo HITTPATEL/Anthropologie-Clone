@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bed.css">
+    <title>Anthropologie Women's CLothing, Accesories & Home</title>
+    <link rel="icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1QFXizHW4skIPtOpI9nmjdLZercU-9osBNoOgIk0&usqp=CAU"
+    type="image/x-icon">
+    <link rel="stylesheet" href="./styles/rishabh.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div id="navbar_main"></div>
+    <div id="sh-container">
+
+        <!-- left container------filter box start-->
+        <div id="sh-sidebar">
+            <p id="sh-p1">Browse by:</p>
+            <hr id="sh-hr1">
+
+            <p><a id="sh-p2" href="#">Bedding</a></p>
+
+            <p class="sh-p3">Duvets</p>
+            <p class="sh-p3">Quilts & Blankets</p>
+            <p class="sh-p3">Sheet Sets</p>
+            <p class="sh-p3">Pillows</p>
+            <p class="sh-p3">Throw Blankets</p>
+            <p class="sh-p3">Shams</p>
+            <p class="sh-p3">Sale Bedding & Bath</p>
+
+            <p id="sh-p4">Filter by:</p>
+            <hr>
+            <div>
+                <h3>Price</h3>
+                <select name="" id="filter">
+                    <option value="">Select</option>
+                <option value="1">$50 - $100</option>
+                <option value="2">$101 - $200</option>
+                <option value="3">$201 - $300</option>
+                </select>
+            </div>
+
+
+            <!-- <hr> -->
+            <!-- <div>
+                <span style="font-weight:bold; font-size: 18px;">Price</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span style="font-weight:bold; font-size: 18px;">Color</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span style="font-weight:bold; font-size: 18px;">Brand</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span style="font-weight:bold; font-size: 18px;">Size</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span style="font-weight:bold; font-size: 18px;">In Stock</span><span>+</span>
+            </div>
+            <hr>
+            <div>
+                <span style="font-weight:bold; font-size: 18px;">Free Pickup</span><span>+</span>
+            </div> -->
+        </div>
+        <!-- filter box ends -->
+
+        <!-- right container-------main page starts -->
+        <div id="sh-main">
+
+             <!-- right div head start -->
+            <div id="sh-right-head">
+                <div id="sh-right-head-box">
+                    <h2 id="sh-head2">Bedding</h2>
+                    <p> 268 products</p>
+                </div>
+
+                <div class="sh-sortby">
+                    <p id="sh-hp">Sort:</p>
+                    <select id="sh-sort" onchange="sort()">
+                        <option value="feature">Featured</option>
+                        <option value="low">Price: Low to High</option>
+                        <option value="high">Price: High to Low</option>
+                        <option value="new">Newest</option>
+                        <option value="best">Bestselling</option>
+                        <option value="rate">Ratings: High to Low</option>
+                        <option value="inc">A-Z</option>
+                        <option value="dec">Z-A</option>
+                    </select>
+                </div>
+            </div>
+            <!-- right div head end -->
+
+
+            <!-- right product start -->
+             <div class="sh-parea" id="sh-product"></div>
+            <!-- right product start -->
+            
+        </div>
+    </div>
+    <div id="footer_main"></div>
+</body>
+</html>
+<script type="module" src="./scripts/bed.js"></script>

@@ -1,30 +1,40 @@
-/* #nav{
-    height: 200px;
-    width: 100%;
-    border: 1px solid black;
-} */
-#shcontainer1{
-    height: 700px;
+*{
+    box-sizing: border-box;
+}
+#myCarousel{
     width: 1403px;
-    border: 1px solid black;
-    margin: 30px 50px 0px 50px;
+    margin-left: -139px;
+    height: 680px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin-right: 50px;
+    /* margin: 30px 50px 0px; */
 }
 #shimg1{
-    height: 100%;
-    width: 100%;
+    height: 680px;
+    width: 1303px;
     cursor: pointer;
 }
 #shcontainer2{
     height: 80px;
     width: 1403px;
-    border: 1px solid black;
-    margin: 0px 50px 0px 50px;
+    /* border: 1px solid black; */
+    margin: -20px 50px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #shpara2{
     margin-left: 20px;
+}
+.carousel-control, .glyphicon-chevron-left{
+    margin-left: 0px;
+    width: 0%;
+    
+}
+.carousel-control,.glyphicon-chevron-right {
+    margin-right: 0px;
+    width: 0%;
 }
 #shcontainer2 a{
     color: #8588ac;
@@ -35,7 +45,7 @@
 #shcontainer3{
     height: 600px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
@@ -43,7 +53,10 @@
 #shbox{
     height: 530px;
     width: 32.2%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+#shbox>p{
+    margin-top: 20px;
 }
 #shimg2{
     height: 100%;
@@ -59,7 +72,7 @@
 #shcontainer4{
     height: 750px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
 }
 #shimg3{
@@ -70,11 +83,14 @@
 #shcontainer5{
     height: 80px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px 50px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: 30px;
+}
+#shcontainer5>p{
+    margin-top: 20px;
 }
 #shpara4{
     margin-left: 20px;
@@ -88,7 +104,7 @@
 #shcontainer6{
     height: 720px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
@@ -96,7 +112,10 @@
 #shbox1{
     height: 650px;
     width: 49.2%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+#shbox1>p{
+    margin-top: 20px;
 }
 #shimg4{
     height: 100%;
@@ -112,7 +131,7 @@
 #shcontainer7{
     height: 650px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
 }
 #shimg5{
@@ -123,11 +142,14 @@
 #shcontainer8{
     height: 80px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px 50px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: 30px;
+}
+#shcontainer8>p{
+    margin-top: 20px;
 }
 #shpara6{
     margin-left: 20px;
@@ -141,7 +163,7 @@
 #shcontainer9{
     height: 700px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
 }
 #shimg6{
@@ -152,7 +174,7 @@
 #shcontainer10{
     height: 700px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 30px 50px 0px 50px;
 }
 #shimg7{
@@ -163,7 +185,7 @@
 #shcontainer11{
     height: 80px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px 50px 0px 50px;
     display: flex;
     justify-content: center;
@@ -181,7 +203,7 @@
 #shcontainer12{
     height: 110px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
 }
 #shimg8{
@@ -192,7 +214,7 @@
 #shcontainer13{
     height: 600px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 30px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
@@ -200,9 +222,12 @@
 #shbox2{
     height: 530px;
     width: 32.2%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-#shimg9{
+#shbox2>p{
+    margin-top: 20px;
+}
+.shimg9{
     height: 100%;
     width: 100%;
     cursor: pointer;
@@ -216,7 +241,7 @@
 #shcontainer14{
     height: 750px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 5px 50px 0px 50px;
 }
 #shimg10{
@@ -227,38 +252,38 @@
 #shcontainer15{
     height: 80px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px 50px 0px 50px;
     display: flex;
     justify-content: center;
     align-items: 30px;
 }
-/* #shpara10{
-    margin-left: 20px;
-} */
+#shcontainer15>p{
+    margin-top: 20px;
+}
 #shcontainer15 a{
     color: #8588ac;
 }
 #shcontainer15 a:hover{
     text-decoration: none;
 }
-
-
-
 #shcontainer16{
-    height: 250px;
+    height: 280px;
     width: 1403px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
 }
-#shbox3{
+.shbox3{
     height: 100px;
     width: 32.2%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-#shimg11{
+.shbox3>p{
+    margin-top: 20px;
+}
+.shimg11{
     height: 100%;
     width: 100%;
     cursor: pointer;
@@ -269,6 +294,51 @@
 #shcontainer16 a:hover{
     text-decoration: none;
 }
-#para-sh{
-    font-size: 20px;
+.para-sh{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 18px;
+}
+.para2-sh,.para3-sh{
+    text-align: center;
+}
+#shcontainer17{
+    height: 120px;
+    width: 1403px;
+    /* border: 1px solid black; */
+    margin: 0px 50px 0px 50px;
+}
+#shimg12{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+#shcontainer18{
+    height: 560px;
+    width: 1403px;
+    /* border: 1px solid black; */
+    margin: 35px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.shbox4{
+    height: 420px;
+    width: 32.2%;
+    /* border: 1px solid red; */
+}
+.shimg13{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+#shcontainer18 a{
+    color: #8588ac;
+}
+#shcontainer16 a:hover{
+    text-decoration: none;
+}
+.par-sh{
+    font-size: 22px;
+    margin-top: 18px;
 }
