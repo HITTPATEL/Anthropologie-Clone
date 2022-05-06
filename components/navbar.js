@@ -12,10 +12,10 @@ function navbar_main(){
     <div id="language">
 
         <div id="left"><button> English($)</button> </div>
-        <div id="right"> <a href="sign_in.html">
+        <div id="right"> <a href="#">
                 <button> <span><i class="fa fa-user" aria-hidden="true"></i></span></a>
-            <a href="sign_in.html">   Sign In/   </a>
-            <a href="sign_in.html"> Sign Up      </a>
+            <a href="#">   Sign In/   </a>
+            <a href="#"> Sign Up      </a>
             </button>
         </div>
     </div>
@@ -45,25 +45,28 @@ function navbar_main(){
     <div id="last1">
         <input id="search-box" type="text" placeholder="Search Anthropologie" >
         <span><i class="fa-solid fa-magnifying-glass"></i></span>
-        <span><i class="fa-light fa-bag-shopping"></i></span>
+      
+        
     </div>
-    
+        
+      <span> <a href="cart.html" style="color: #4b8f9a;"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></span>
    
 </div>
 </div>
 
 <div id="toggle">
 <div>New!</div>
-<div>Gifts for Mom</div>
-<div>Dresses</div>
+<div>Gifts foer Mom</div>
+<div> <a href="#" style="text-decoration: none; color:black" >Bedding</a>
+</div>
 <div>Clothing</div>
 <div>Shoes</div>
 <div>Accessories</div>
-<div>Home & Furniture</div>
-<div>Beauty & Wellness</div>
-<div>Garden & Outdoor</div>
-<div>Weddings</div>
-<div>Sale</div>
+<div>home&Furm</div>
+<div>home&Furm</div>
+<div>home&Furm</div>
+<div>home&Furm</div>
+<div>home&Furm</div>
 </div>
 <hr>
 
@@ -71,4 +74,6 @@ function navbar_main(){
 }
 
  export  default navbar_main
+
+
 
