@@ -9,7 +9,7 @@ function footer_main(){
             <p>Receive early access to new arrivals, sales, exclusive content, events and much more!</p>
         </div>
         <div id="sign_input">
-            <h3>Email Address*</h3>
+            <h3 >Email Address <span style="font-size:8px;padding-bottom:10px"> <i class="fa fa-asterisk" ></i> </span></h3>
             <input type="text">
             <button>SUBMIT</button>
         </div>
@@ -104,13 +104,13 @@ function footer_main(){
         </div>
 
         <div id="twitter">
-            <span> <img
+        <a href="https://apps.apple.com/us/app/anthropologie/id922496703" <span> <img
                     src="https://images.ctfassets.net/5de70he6op10/4gWq1G4qLLgmqlNeHfzV2T/55298745127c36c5876f4013434c0c37/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917_Copy_2.svg"
-                    alt=""> <a href=""></a></span>
-            <span> <i class="fa fa-pinterest" style="font-size:24px;color: #52889b"></i></span>
-            <span><i class="fa fa-instagram" style="font-size:36px;color: #52889b;"></i></span>
-            <span><i class="fa fa-facebook-official" style="font-size:36px;color: #52889b;"></i></span>
-            <span><i class="fa fa-twitter" style="font-size:24px;color: #52889b;"></i></span>
+                    alt=""> </span></a>
+                    <a href="https://www.pinterest.com/anthropologie/">  <span> <i class="fa fa-pinterest" style="font-size:24px;color: #52889b"></i></span></a>
+                    <a href="https://www.instagram.com/anthropologie/?hl=en">  <span><i class="fa fa-instagram" style="font-size:36px;color: #52889b;"></i></span></a>
+           <a href="https://www.facebook.com/Anthropologie/" style="font-size:36px;color: #52889b;padding:10px"></i></span></a>
+           <a href="https://twitter.com/Anthropologie?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <span><i class="fa fa-twitter" style="font-size:24px;color: #52889b;"></i></span></a>
 
         </div>
 

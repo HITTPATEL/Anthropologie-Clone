@@ -13,9 +13,8 @@
    color: rgb(63, 61, 61);
 }
 
-
 #right button{
-    color:teal;
+   
     border: none;
 }
 #right a{
@@ -72,9 +71,12 @@
 #last{
     display: flex;
    margin: 10px;
-   
+   /* border: solid 1px red; */
+   /* justify-content: center; */
     margin-right: 70px;
     align-content: center;
+    align-items: center;
+    gap: 30px;
     justify-content: space-around;
     height: 100%;
 
@@ -127,6 +129,8 @@
     
 #167a92;
 }
+   
+
 
 #footer{
     
@@ -135,6 +139,7 @@
     justify-content: space-between;
     padding: 30px;
 }
+
 #signup_para{
   
     height: 100px;
@@ -142,9 +147,9 @@
 }
 #signup_para p{
     color: var(--text-medium);
-    font:  Avenir Book,sans-serif;
+    font-family: sans-serif;
     letter-spacing: .06rem;
-   
+   font-size: 14px;
     padding-bottom: 10px;
 }
 
