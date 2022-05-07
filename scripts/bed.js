@@ -325,8 +325,8 @@ function mouseOutfunction(product) {
     img.src = product.image;
 }
 
-
-function sort() {
+document.getElementById("sh-sort").addEventListener("change",shipra);
+function shipra() {
     var selected = document.getElementById("sh-sort").value;
     var all = ProductList;
     if (selected == "low") {
@@ -456,17 +456,13 @@ function handleBrandFilter() {
 
 }
 
-
-
-
-
-
-function goto() {
-    window.location.href = "bed-product-detail.html"
-}
-
 let email=JSON.parse(localStorage.getItem("email"))
 let otp=JSON.parse(localStorage.getItem("otp"))
 if(email !== null  && otp !==null){
     document.getElementById("right").innerHTML=`<i class="fa fa-user" aria-hidden="true"></i>${"  "}My Profile`
 }
+
+
+// function goto() {
+//     window.location.href = "bed-product-detail.html"
+// }
