@@ -6,7 +6,7 @@
 
 
     let text1 = document.createElement("h3")
-    text1.innerText= "Orede Summary"
+    text1.innerText= "Order Summary"
     document.getElementById("order").append(text1)
 
     let box = document.createElement("div")
@@ -14,11 +14,10 @@
     let table = document.createElement('table');
     let tbody = document.createElement('tbody');
 
-    let pri = JSON.parse(localStorage.getItem("cart_Info"))
-    let sum = 0
-    for(let i=0;i<pri.length;i++){
-        sum= sum+pri[i]
-    }
+    let data = JSON.parse(localStorage.getItem("cart_Info"))
+    console.log(data[0].price)
+     let pri= data[0].price
+    let sum = Number(pri)
     console.log(sum)
     let row1 = document.createElement('tr');
     let row1col1 = document.createElement('td');
@@ -110,8 +109,8 @@
         
             }
             loc.push(obj)
-        
-            localStorage.setItem("data",JSON.stringify(loc))
+            console.log(loc)
+            localStorage.setItem("address",JSON.stringify(loc))
                 window.location.href="payment.html"
 
         }

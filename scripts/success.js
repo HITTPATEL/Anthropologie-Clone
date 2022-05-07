@@ -14,7 +14,7 @@ timeout = setTimeout(alertFunc, 3000);
 }
 
 function alertFunc() {
-window.location.href="indx.html"
+window.location.href="index.html"
 }
 
     

@@ -10,11 +10,10 @@
     box.id="total"
     let table = document.createElement('table');
     let tbody = document.createElement('tbody');
-    let pri = JSON.parse(localStorage.getItem("cart_Info"))
-    let sum = 0
-    for(let i=0;i<pri.length;i++){
-        sum= sum+pri[i]
-    }
+    let datap = JSON.parse(localStorage.getItem("cart_Info"))
+    // console.log(datap[0].price)
+     let pri= datap[0].price
+    let sum = Number(pri)
 
     let row1 = document.createElement('tr');
     let row1col1 = document.createElement('td');
@@ -116,9 +115,11 @@
 }
    
     let billdiv = document.getElementById('billing')
+    // let addresss = JSON.parse(localStorage.getItem("address"))
+    // console.log('addresss:', addresss)
 
-    let data1 = JSON.parse(localStorage.getItem("data"))
-    // console.log(data)
+    let data1 = JSON.parse(localStorage.getItem("address"))
+    console.log(data1)
     let data = data1[0]
     console.log(data)
     let h4 = document.createElement("h4")
@@ -153,6 +154,7 @@
     num.innerText=data.mno
     let change = document.createElement("p")
     change.id="change"
+    
     change.innerText="Change"
     change.addEventListener("click", pickup)
     billdiv.append(h4,namevid,h_no,street,ct,num,change)
@@ -178,5 +180,7 @@
     import footer_main from "../components/footer.js";
     document.getElementById("footer_main").innerHTML=footer_main();
 
-    import navbar_main from "../components/navbar.js"
+    import navbar_main from "../components/navcheck.js"
     document.getElementById("navbar_main").innerHTML=navbar_main();
+
+
