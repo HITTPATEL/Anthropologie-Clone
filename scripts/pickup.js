@@ -2,7 +2,7 @@ let sumdiv = document.getElementById("amount")
     // sumdiv.id="code"
 
     let text1 = document.createElement("h3")
-    text1.innerText= "Oreder Summary"
+    text1.innerText= "Order Summary"
     document.getElementById("order").append(text1)
 
     let box = document.createElement("div")
@@ -10,11 +10,14 @@ let sumdiv = document.getElementById("amount")
     let table = document.createElement('table');
     let tbody = document.createElement('tbody');
 
-    let pri = JSON.parse(localStorage.getItem("cart_Info"))
-    let sum = 0
-    for(let i=0;i<pri.length;i++){
-        sum= sum+pri[i]
-    }
+    let data = JSON.parse(localStorage.getItem("cart_Info"))
+    console.log(data[0].price)
+     let pri= data[0].price
+    let sum = Number(pri)
+    // for(let i=0;i<data.length;i++){
+    //     sum= sum+pri[i]
+    // }
+    console.log(sum)
     let row1 = document.createElement('tr');
     let row1col1 = document.createElement('td');
     row1col1.innerText= "Subtotal"
@@ -120,5 +123,5 @@ let sumdiv = document.getElementById("amount")
 import footer_main from "../components/footer.js";
     document.getElementById("footer_main").innerHTML=footer_main();
 
-    import navbar_main from "../components/navbar.js"
+    import navbar_main from "../components/navcheck.js"
     document.getElementById("navbar_main").innerHTML=navbar_main();
