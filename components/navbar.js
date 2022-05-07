@@ -14,8 +14,8 @@ function navbar_main(){
         <div id="left"><button> English($)</button> </div>
         <div id="right"> <a href="#">
                 <button> <span><i class="fa fa-user" aria-hidden="true"></i></span></a>
-            <a href="#">   Sign In/   </a>
-            <a href="#"> Sign Up      </a>
+            <a href="sign_in.html">   Sign In/   </a>
+            <a href="sign_in.html"> Sign Up      </a>
             </button>
         </div>
     </div>

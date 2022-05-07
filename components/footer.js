@@ -109,7 +109,8 @@ function footer_main(){
                     alt=""> </span></a>
                     <a href="https://www.pinterest.com/anthropologie/">  <span> <i class="fa fa-pinterest" style="font-size:24px;color: #52889b"></i></span></a>
                     <a href="https://www.instagram.com/anthropologie/?hl=en">  <span><i class="fa fa-instagram" style="font-size:36px;color: #52889b;"></i></span></a>
-           <a href="https://www.facebook.com/Anthropologie/" style="font-size:36px;color: #52889b;padding:10px"></i></span></a>
+           <a href="https://www.facebook.com/Anthropologie/" style="font-size:36px;color: #52889b;padding:10px"><i class="fa fa-facebook-official" style="font-size:36px;color: #52889b;padding:10px"></i>
+           </span></a>
            <a href="https://twitter.com/Anthropologie?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <span><i class="fa fa-twitter" style="font-size:24px;color: #52889b;"></i></span></a>
 
         </div>
