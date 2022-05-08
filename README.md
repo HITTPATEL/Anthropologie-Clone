@@ -75,7 +75,7 @@ B. RISHABH KUMAR PANDEY - LinkedIn Profile link -https://www.linkedin.com/in/ris
     
    3. I used HTML, CSS, and JS for the cart page, delivery detail page.
     
-   4.I learn a lot of things in JavaScript, learn more about local storage, how to append, add the local storage, and alert users, and also improved my HTML & CSS, I       like working as a team, and interacting with each other professionally.
+    4.I learn a lot of things in JavaScript, learn more about local storage, how to append, add the local storage, and alert users, and also improved my HTML & CSS, I       like working as a team, and interacting with each other professionally.
      
     5.Building a carousel was one of the tasks on my page but I Did it at last.
 
