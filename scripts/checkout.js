@@ -21,7 +21,7 @@
     console.log(sum)
     let row1 = document.createElement('tr');
     let row1col1 = document.createElement('td');
-    row1col1.innerText= "Subtotal"
+    row1col1.innerText= "Subtotal:"
     let row1col2 = document.createElement('td');
     row1col2.innerText="$"+sum
     row1.appendChild(row1col1)
@@ -31,7 +31,7 @@
 
     let row2 = document.createElement('tr');
     let row2col1 = document.createElement('td');
-    row2col1.innerText= "Shipping"
+    row2col1.innerText= "Shipping:"
     let row2col2 = document.createElement('td');
     row2col2.innerText="TBD"
     row2.appendChild(row2col1)
@@ -41,19 +41,25 @@
 
     let row3 = document.createElement('tr');
     let row3col1 = document.createElement('td');
-    row3col1.innerText= "Estimated Tax"
+    row3col1.innerText= "Tax :"
     let row3col2 = document.createElement('td');
     row3col2.innerText="$0.00"
 
     row3.appendChild(row3col1)
     row3.appendChild(row3col2)
     tbody.append(row3)
+
+    let row35 = document.createElement('tr');
+    row35.id="disco"
+    
+    tbody.append(row35)
     
     let row4 = document.createElement('tr');
     let row4col1 = document.createElement('td');
-    row4col1.innerText="Total"
+    row4col1.innerText="Total :"
     let row4col2 = document.createElement('td');
     row4col2.innerText="$"+sum
+    row4col2.id="price"
 
     row4.appendChild(row4col1)
     row4.appendChild(row4col2)
@@ -138,9 +144,10 @@ else{
         inp.id="pin"
 
         let btn = document.createElement("button")
-        btn.setAttribute("click",masai30)
+       btn.addEventListener("click",masai30)
         btn.innerText="Apply"
         btn.id = "pbtn"
+        
         
         document.getElementById("spa").innerHTML="-"
         pbox.append(inp,btn)
@@ -158,13 +165,46 @@ else{
 }
 
 function masai30(){
+    row35.innerHTML=null
+    document.getElementById("discount").innerHTML=null
     console.log("yes")
     let cd= document.getElementById("pin").value
-    console.log(cd)
+    
+    let dis = Math.floor((pri/100)*70)
+    console.log(dis)
+    localStorage.setItem("dis",JSON.stringify(dis))
+    if(cd === "masai30"){
+        document.getElementById("price").innerText="$"+dis
+
+        let discount=document.createElement("h3")
+        discount.innerText="Congratulations you got 30% Discount"
+        document.getElementById("discount").append(discount)
+
+
+            let row35col1 = document.createElement('td');
+            // row35col1.id="disco"
+            row35col1.id="red"
+            row35col1.innerText= "Discount:"
+            let row35col2 = document.createElement('td');
+            row35col2.id="Strike"
+            row35col2.innerText="$"+Math.floor((pri/100)*30)
+            // row35col2.id="discoprice"
+            
+            row35.appendChild(row35col1)
+            row35.appendChild(row35col2)
+            let z = Math.floor((pri/100)*30)
+            let d = "Discount"
+            let arr = [d,z]
+            localStorage.setItem("Discount",JSON.stringify(arr))
+            // tbody.append(row35)
+        // document.getElementById("disco").innerText= "Discount"
+        // document.getElementById("discoprice").innerText="$"+Math.floor((pri/100)*30)
+
+    }
 }
    
 
-    
+
 
 
     import footer_main from "../components/footer.js";

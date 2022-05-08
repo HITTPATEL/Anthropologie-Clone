@@ -47,6 +47,22 @@ let sumdiv = document.getElementById("amount")
     row3.appendChild(row3col1)
     row3.appendChild(row3col2)
     tbody.append(row3)
+    let arr1 = JSON.parse(localStorage.getItem("Discount"))
+    if(arr1!=""){
+        let row35 = document.createElement('tr');
+        let row35col1 = document.createElement('td');
+        row35col1.innerText= arr1[0]
+        row35col1.id="red"
+        let row35col2 = document.createElement('td');
+        row35col2.innerText="$"+arr1[1]
+        
+        row35col2.id="strike"
+
+        row35.appendChild(row35col1)
+        row35.appendChild(row35col2)
+        tbody.append(row35)
+    }
+    
 
     let row4 = document.createElement('tr');
     let row4col1 = document.createElement('td');
