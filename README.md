@@ -65,7 +65,7 @@ B. RISHABH KUMAR PANDEY - LinkedIn Profile link -https://www.linkedin.com/in/ris
 
    3. I have used various methods like Import, Export, etc.
     
-  D. SWATI KUSHWAHA - Linkedin profile link - https://www.linkedin.com/in/shubham-kumar-729510113
+  D. SWATI KUSHWAHA - Linkedin profile link - https://www.linkedin.com/in/swati-kushwaha-53a249111/
 
    My contribution to this project:
     
