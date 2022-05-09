@@ -38,7 +38,7 @@ A.  HITENDRA VERMA - LinkedIn Profile link -  https://www.linkedin.com/in/hitend
 
     My contribution to this project:
     
-    1. I worked on the home page and tried to clone it exactly like the original website’s page specifically when it comes to the carousel, banners
+    1. I worked on the home page and tried to clone it exactly like the original website’s page specifically when it comes to the carousel, banners.
 
     2. Worked on almost every page of the website in terms of syncing all the pages together and fixing the issue and as well as on the functionality of the website.
 
@@ -93,6 +93,6 @@ B. RISHABH KUMAR PANDEY - LinkedIn Profile link -https://www.linkedin.com/in/ris
     
     2. I have used Javascript to create the pages.
 
-    3. I have used various methods like Import, Export, ES6, etc. To give the functionality of my pages
+    3. I have used various methods like Import, Export, ES6, etc. To give the functionality of my pages.
     
  
