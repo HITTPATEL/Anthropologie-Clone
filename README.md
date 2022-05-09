@@ -64,6 +64,8 @@ B. RISHABH KUMAR PANDEY - LinkedIn Profile link -https://www.linkedin.com/in/ris
    2. I have used Javascript, HTML, CSS & Bootstrap to create the page and provide the functionality.
 
    3. I have used various methods like Import, Export, etc.
+   
+   4. I build a caraousel on my landing page as well. 
     
   D. SWATI KUSHWAHA - Linkedin profile link - https://www.linkedin.com/in/swati-kushwaha-53a249111/
 
