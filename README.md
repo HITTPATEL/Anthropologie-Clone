@@ -8,6 +8,8 @@ We had a time frame of six days. This was the second website building project fo
 We have tried to build the exact homepage, product page, cart page, checkout page, Payment page, and order confirmation page with the tab switch and the on-hover, and many other functions. We have built the exact footer as it is on the original website.
 
 
+Blog link:-https://medium.com/@pandeyrishi902/hi-everyone-this-is-our-units-third-team-project-at-masai-school-c8bc55bc4172
+
 ============================================================================================
 
 Tech Stacks Used:
